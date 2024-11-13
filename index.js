@@ -34,3 +34,33 @@ numbers[0]=78;
 console.log(numbers)
 
 // that's why array is mutable
+
+
+// ------------------------------------------------string is immutable( doesn't change)-------------------------------------------------------------------
+
+const profession2="Developer";
+console.log(profession2);
+
+
+// Check the string element through its length property
+
+console.log(profession2.length)
+
+// Check the string element through its index
+
+console.log(profession2[0]);
+console.log(profession2[1]);
+console.log(profession2[2]);
+console.log(profession2[3]);
+console.log(profession2[4]);
+console.log(profession2[5]);
+console.log(profession2[6]);
+console.log(profession2[7]);
+console.log(profession2[8])
+
+
+// change index though string
+
+profession2[2]='d'
+console.log(profession2)
+// doesn't change index.That's way string is immutable

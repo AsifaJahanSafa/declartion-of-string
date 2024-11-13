@@ -33,3 +33,53 @@ console.log(divide3);
 // a word separator specified split
 const divide4=sentence.split('a');
 console.log(divide4)
+
+
+// -------------------------------------------------------join(join elements of an array into a single string in one line)--------------------------------------------------
+const letter=['f','r','i','e','n','d','s'];
+
+// auto separte with coma
+const connect1=letter.join();
+console.log(connect1)
+
+// auto separte with hyphen
+const connect2=letter.join('-');
+console.log(connect2);
+
+// auto separte with pipe
+const connect3=letter.join('|');
+console.log(connect3)
+
+
+
+// auto separte without space
+const connect4=letter.join('');
+console.log(connect4)
+
+
+// -------------------------------------------------------concat(join two or more arrays or strings together)--------------------------------------------------
+
+const first='Safa';
+const middle='Jahan';
+const last='Asifa';
+const fullName=first.concat(' ').concat(middle).concat(' ').concat(last);
+console.log(fullName)
+
+
+
+// -------------------------------------------------------includes(check if a certain element exists in an array or a substring exists within a string. )--------------------------------------------------
+
+const food='rice';
+const find=food.includes('d');
+console.log(find)
+
+
+
+
+
+
+
+
+
+
+
